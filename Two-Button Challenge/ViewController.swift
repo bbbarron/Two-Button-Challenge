@@ -17,10 +17,15 @@ class ViewController: UIViewController {
     
     @IBAction func button1Pressed(_ sender: UIButton) {
         selectButtonBelow.text = "Left Button Pressed"
+        selectButtonBelow.textColor = UIColor.blue
+        selectButtonBelow.textAlignment = NSTextAlignment.left
     }
-    
+
     @IBAction func button2Pressed(_ sender: UIButton) {
         selectButtonBelow.text = "Right Button Pressed"
+        selectButtonBelow.textColor = UIColor.green
+        selectButtonBelow.textAlignment = NSTextAlignment.right
     }
+
 }
 
